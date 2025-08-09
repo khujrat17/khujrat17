@@ -58,14 +58,14 @@
 
 ### 📊 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=csjob&show_icons=true&theme=radical" alt="Khujrat's GitHub Stats" height="180" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=csjob&theme=radical" alt="GitHub Streak" height="180" />
+
 </p>
 
 ---
 
 ### 🏆 GitHub Trophies
 <p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=csjob&theme=radical&margin-w=15&margin-h=15" alt="GitHub Trophies" />
 </p>
 
 ---
