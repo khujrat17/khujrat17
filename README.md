@@ -66,7 +66,6 @@
 
 ### 🏆 GitHub Trophies
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=csjob&theme=radical&margin-w=15&margin-h=15" alt="GitHub Trophies" />
 </p>
 
 ---
