@@ -58,6 +58,7 @@
 
 ### 📊 GitHub Stats
 <p align="center">
+  <img src="https://github-readme-stats-git-master-khujrat17s-projects.vercel.app/api?username=Khujrat17&show_icons=true&count_private=true&theme=radical&margin-w=15&margin-h=15" alt="GitHub Trophies" />
 
 </p>
 
