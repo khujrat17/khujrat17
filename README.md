@@ -9,7 +9,7 @@
 
 <!-- Badges -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=csjob&label=Profile%20Views&color=0e75b6&style=flat" alt="khujrat shaikh" />
+  <img src="https://komarev.com/ghpvc/?username=khujrat17&label=Profile%20Views&color=0e75b6&style=flat" alt="khujrat shaikh" />
   <a href="https://www.linkedin.com/in/khujrat-shaikh-8823a5203/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin" alt="LinkedIn" />
   </a>
@@ -58,7 +58,7 @@
 
 ### 📊 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats-git-master-khujrat17s-projects.vercel.app/api?username=Khujrat17&show_icons=true&count_private=true&theme=radical&margin-w=15&margin-h=15" alt="GitHub Trophies" />
+  <img src="https://github-readme-stats.vercel.app/api?username=khujrat17&theme=radical&margin-w=15&margin-h=15" alt="GitHub Trophies" />
 
 </p>
 
@@ -66,12 +66,12 @@
 
 ### 🏆 GitHub Trophies
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=csjob&theme=radical&margin-w=15&margin-h=15" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=khujrat17&theme=radical&margin-w=15&margin-h=15" alt="GitHub Trophies" />
 </p>
 
 ---
 
 ### 📈 Top Languages
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=csjob&layout=compact&theme=radical" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=khujrat17&layout=compact&theme=radical" alt="Top Languages" />
 </p>
