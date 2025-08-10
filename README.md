@@ -1,6 +1,6 @@
 <!-- Banner Section -->
 <p align="center">
-  <img src="khujrat-banner.svg" alt="Khujrat Shaikh - Full-Stack .NET Software Engineer Banner" width="900" />
+  <img src="download.svg" alt="Khujrat Shaikh - Full-Stack .NET Software Engineer Banner" width="900" />
 </p>
 
 <!-- Profile Header -->
