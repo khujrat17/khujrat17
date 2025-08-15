@@ -31,7 +31,7 @@
 - 🛠 **Experience:** 2.5+ years building dynamic, scalable, and secure web apps  
 - 🌱 **Learning:** Advanced Web Technologies & AI  
 - 🤝 **Open to Collaborations:** Full-Stack Projects  
-- 💬 **Ask me about:** `.NET`, `C#`, `Angular`, `Full-Stack Development`  
+- 💬 **Ask me about:** `.NET`,`.NET CORE MVC`, `WEB FORMS` `C#`, `Angular`, `Full-Stack Development`  
 - 📧 **Reach me at:** [khujratshaikh1284@gmail.com](mailto:khujratshaikh1284@gmail.com)  
 
 ---
