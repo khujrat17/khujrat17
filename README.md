@@ -83,10 +83,3 @@
   <img src="https://raw.githubusercontent.com/klaudiasiewert/Galaxy-Animation/main/stars.gif" width="100%" height="120" />
 </p>
 
-<style>
-@keyframes gradientMove {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
-</style>
