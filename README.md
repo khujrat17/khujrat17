@@ -1,6 +1,49 @@
-<!-- Animated Galaxy Header (GIF fallback for README) -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/klaudiasiewert/Galaxy-Animation/main/galaxy.gif" width="100%" height="250" style="border-radius:20px;" />
+<!-- Animated Galaxy Banner -->
+<p align="center" style="position: relative; overflow: hidden; height: 250px;">
+  <svg width="100%" height="250" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <!-- Background Gradient -->
+      <linearGradient id="grad" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#ff8a00" />
+        <stop offset="50%" stop-color="#e52e71" />
+        <stop offset="100%" stop-color="#4a00e0" />
+      </linearGradient>
+    </defs>
+
+    <!-- Starry Background -->
+    <rect width="100%" height="100%" fill="black" />
+    <g>
+      <!-- Random Stars -->
+      <circle cx="10%" cy="20%" r="1.5" fill="white">
+        <animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="50%" cy="80%" r="1.2" fill="white">
+        <animate attributeName="opacity" values="1;0;1" dur="4s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="80%" cy="40%" r="1" fill="white">
+        <animate attributeName="opacity" values="0;1;0" dur="2.5s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="30%" cy="60%" r="1.3" fill="white">
+        <animate attributeName="opacity" values="1;0;1" dur="3.5s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="70%" cy="25%" r="1" fill="white">
+        <animate attributeName="opacity" values="0;1;0" dur="2.8s" repeatCount="indefinite" />
+      </circle>
+    </g>
+
+    <!-- Main Text -->
+    <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle"
+      font-family="Arial, sans-serif" font-size="34"
+      fill="url(#grad)" stroke="white" stroke-width="0.5"
+      style="paint-order: stroke fill;">
+      Hi 👋, I'm Khujrat Shaikh
+    </text>
+    <text x="50%" y="80%" dominant-baseline="middle" text-anchor="middle"
+      font-family="Arial, sans-serif" font-size="20"
+      fill="#ffffff" opacity="0.85">
+      🚀 Full-Stack .NET Software Engineer | 2.5+ Years of Experience
+    </text>
+  </svg>
 </p>
 
 <!-- Link to Interactive 3D Galaxy -->
