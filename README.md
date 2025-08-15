@@ -5,7 +5,7 @@
 
 <!-- Link to Interactive 3D Galaxy -->
 <p align="center">
-  <a href="https://<your-username>.github.io/<your-repo>/interactive-galaxy.html" target="_blank" rel="noopener">
+  <a href="https://khujrat17.github.io/khujrat17/interactive-galaxy.html" target="_blank" rel="noopener">
     <img alt="Open Interactive Galaxy" src="https://img.shields.io/badge/View%20Interactive%20Galaxy-Open-blue?style=for-the-badge&logo=three.js" />
   </a>
 </p>
@@ -22,9 +22,7 @@
   </span>
 </h1>
 
-<h3 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F85D7F&width=500&lines=🚀+Full-Stack+.NET+Software+Engineer;2.5%2B+Years+Experience;💡+Always+Learning+New+Technologies" alt="Typing SVG" />
-</h3>
+
 
 <!-- Social Badges -->
 <p align="center">
