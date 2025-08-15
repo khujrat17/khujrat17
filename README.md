@@ -54,11 +54,11 @@
 
 ## 🔭 Featured Projects
 
-| Project                        | Highlights                                         | Live Demo                                                 |
-| ------------------------------ | -------------------------------------------------- | --------------------------------------------------------- |
-| **Interactive Galaxy**         | Three.js, custom shaders, parallax interactions    | [View Live](https://khujrat17.github.io/khujrat17/interactive-galaxy.html) |
-| **Task Management Portal**     | .NET 8 Web API, Angular 16, JWT, SignalR           | Coming soon                                               |
-| **Real-Time Dashboard**        | Chart.js, WebSockets, ASP.NET Core, RxJS Patterns  | —                                                         |
+        | Project                        | Highlights                                         | Live Demo                                                 |
+        | ------------------------------ | -------------------------------------------------- | --------------------------------------------------------- |
+        | **Interactive Galaxy**         | Three.js, custom shaders, parallax interactions    | [View Live](https://khujrat17.github.io/khujrat17/interactive-galaxy.html)         |
+        | **Task Management Portal**     | .NET 8 Web API, Angular 16, JWT, SignalR           | Coming soon                                               |
+        | **Real-Time Dashboard**        | Chart.js, WebSockets, ASP.NET Core, RxJS Patterns  | —                                                         |
 
 <hr />
 
