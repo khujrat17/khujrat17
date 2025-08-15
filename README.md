@@ -1,3 +1,4 @@
+<!-- Centered Galaxy Button -->
 <p align="center">
   <a href="https://khujrat17.github.io/khujrat17/interactive-galaxy.html" target="_blank" rel="noopener">
     <img alt="Open Interactive Galaxy" src="https://img.shields.io/badge/View%20Interactive%20Galaxy-Open-blue?style=for-the-badge&logo=three.js" />
@@ -5,19 +6,28 @@
 </p>
 
 <!-- Animated Gradient Title -->
+<style>
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+.gradient-text {
+  background: linear-gradient(90deg, #ff8a00, #e52e71, #9d50bb, #00c6ff);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: gradientMove 8s ease infinite;
+  text-shadow: 0 0 20px rgba(255,255,255,0.3);
+  font-size: 2em;
+}
+</style>
+
 <h1 align="center">
-  <span style="
-      background: linear-gradient(90deg, #ff8a00, #e52e71, #9d50bb, #00c6ff);
-      background-size: 400% 400%;
-      -webkit-background-clip: text;
-      color: transparent;
-      animation: gradientMove 8s ease infinite;
-      text-shadow: 0 0 20px rgba(255,255,255,0.3);
-      ">
-    ✨ Hi there, I’m Khujrat Shaikh ✨
-  </span>
+  <span class="gradient-text">✨ Hi, I’m Khujrat Shaikh ✨</span>
 </h1>
 
+<!-- Contact & Stats -->
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=khujrat17&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
   &nbsp;&nbsp;
@@ -46,19 +56,72 @@
 
 ## 🛠 Tech Stack
 
+<style>
+  .tech-icon {
+    transition: transform 0.3s ease, filter 0.3s ease;
+    margin: 5px;
+  }
+  .tech-icon:hover {
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 5px #00c6ff);
+  }
+</style>
+
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=csharp,dotnet,angular,bootstrap,html,css,js,ajax,jquery,mysql,postman,git,github,visualstudio" alt="Tech Stack" />
+  <img class="tech-icon" src="https://skillicons.dev/icons?i=csharp" height="40" />
+  <img class="tech-icon" src="https://skillicons.dev/icons?i=dotnet" height="40" />
+  <img class="tech-icon" src="https://skillicons.dev/icons?i=angular" height="40" />
+  <img class="tech-icon" src="https://skillicons.dev/icons?i=bootstrap" height="40" />
+  <img class="tech-icon" src="https://skillicons.dev/icons?i=html,css,js" height="40" />
+  <img class="tech-icon" src="https://skillicons.dev/icons?i=ajax,jquery,mysql" height="40" />
+  <img class="tech-icon" src="https://skillicons.dev/icons?i=postman,git,github,visualstudio" height="40" />
 </p>
 
 <hr />
 
 ## 🔭 Featured Projects
 
-| Project                        | Highlights                                         | Live Demo                                                 |
-| ------------------------------ | -------------------------------------------------- | --------------------------------------------------------- |
-| **Interactive Galaxy**         | Three.js, custom shaders, parallax interactions    | [View Live](https://khujrat17.github.io/khujrat17/interactive-galaxy.html) |
-| **Task Management Portal**     | .NET 8 Web API, Angular 16, JWT, SignalR           | Coming soon                                               |
-| **Real-Time Dashboard**        | Chart.js, WebSockets, ASP.NET Core, RxJS Patterns  | —                                                         |
+<style>
+.project-card {
+  background: #1e1e2f;
+  border-radius: 12px;
+  padding: 16px;
+  margin: 10px auto;
+  max-width: 600px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.project-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 15px rgba(255,255,255,0.2);
+}
+.project-title {
+  font-size: 1.2em;
+  color: #00c6ff;
+}
+.project-desc {
+  color: #ccc;
+}
+</style>
+
+<div align="center">
+  <div class="project-card">
+    <div class="project-title">🌌 Interactive Galaxy</div>
+    <div class="project-desc">Three.js, custom shaders, parallax motion. A cosmic UI experience.</div>
+    <a href="https://khujrat17.github.io/khujrat17/interactive-galaxy.html" target="_blank">🔗 View Live</a>
+  </div>
+
+  <div class="project-card">
+    <div class="project-title">📋 Task Management Portal</div>
+    <div class="project-desc">.NET 8 Web API, Angular 16, JWT, SignalR. Real-time task collaboration.</div>
+    <span>🚧 Coming Soon</span>
+  </div>
+
+  <div class="project-card">
+    <div class="project-title">📊 Real-Time Dashboard</div>
+    <div class="project-desc">Chart.js, WebSockets, RxJS, ASP.NET Core. Live metrics and analytics.</div>
+    <span>—</span>
+  </div>
+</div>
 
 <hr />
 
@@ -92,8 +155,12 @@
 <hr />
 
 <!-- Starry Footer -->
+<style>
+.footer-stars {
+  filter: drop-shadow(0 0 5px #00c6ff);
+}
+</style>
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/klaudiasiewert/Galaxy-Animation/main/stars.gif" width="100%" height="120" />
+  <img class="footer-stars" src="https://raw.githubusercontent.com/klaudiasiewert/Galaxy-Animation/main/stars.gif" width="100%" height="120" />
 </p>
-
-
