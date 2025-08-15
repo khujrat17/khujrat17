@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Interactive 3D Galaxy — Khujrat Shaikh</title>
+  <style>
+    html,body { height:100%; margin:0; background:#030312; color:#e6eef8; overflow:hidden; font-family:Arial, sans-serif; }
+    #canvas-wrap { position:fixed; inset:0; z-index:0; }
+    .overlay {
+      position:relative; z-index:2; pointer-events:none;
+      display:flex; align-items:center; justify-content:center; flex-direction:column;
+      padding:20px;
+      gap:12px;
+      text-align:center;
+    }
+    .card {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.05);
+      backdrop-filter: blur(5px);
+      padding:14px 20px;
+      border-radius:10px;
+      pointer-events:auto;
+      max-width:800px;
+    }
+    h1 { margin:0; font-size:22px; }
+    p { margin:0; opacity:0.85; font-size:14px; }
+    .cta { margin-top:8px; display:flex; gap:8px; justify-content:center; }
+    .btn {
+      background:linear-gradient(90deg,#6b46ff,#ff6bcb);
+      color:white; border:0; padding:8px 12px; border-radius:8px; text-decoration:none;
+    }
+    .small { font-size:12px; opacity:0.75; }
+  </style>
+</head>
+<body>
+  <div id="canvas-wrap"></div>
+
+  <div class="overlay">
+    <div class="card">
+      <h1>✨ Hi — I'm <strong>Khujrat Shaikh</strong></h1>
+      <p class="small">Full-Stack .NET Engineer • Move mouse or touch to interact</p>
+      <div class="cta">
+        <a class="btn" href="https://github.com/khujrat17" target="_blank">View GitHub</a>
+        <a class="btn" href="mailto:khujratshaikh1284@gmail.com">Contact</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/three@0.158.0/build/three.min.js"></script>
+  <script>
+  (function(){
+    const wrap = document.getElementById('canvas-wrap');
+    const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    wrap.appendChild(renderer.domElement);
+
+    const scene = new THREE.Scene();
+    scene.fog = new THREE.FogExp2(0x000016, 0.0009);
+
+    const camera = new THREE.PerspectiveCamera(55, window.innerWidth / window.innerHeight, 0.1, 4000);
+    camera.position.set(0, 0, 600);
+
+    const particleCount = 10000;
+    const geometry = new THREE.BufferGeometry();
+    const positions = new Float32Array(particleCount * 3);
+    const colors = new Float32Array(particleCount * 3);
+
+    const colorInside = new THREE.Color(0xffb6c1);
+    const colorOutside = new THREE.Color(0x61dafb);
+
+    for (let i = 0; i < particleCount; i++) {
+      const radius = Math.pow(Math.random(), 2) * 900;
+      const angle = Math.random() * Math.PI * 2;
+      const branchTwist = radius * 0.25 * (Math.random() - 0.5);
+      const x = Math.cos(angle) * radius + (Math.random() - 0.5) * branchTwist;
+      const y = (Math.random() - 0.5) * (radius * 0.15);
+      const z = Math.sin(angle) * radius + (Math.random() - 0.5) * branchTwist;
+
+      positions[i*3] = x;
+      positions[i*3+1] = y;
+      positions[i*3+2] = z;
+
+      const t = radius / 900;
+      const col = colorInside.clone().lerp(colorOutside, t);
+      colors[i*3] = col.r;
+      colors[i*3+1] = col.g;
+      colors[i*3+2] = col.b;
+    }
+
+    geometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+    geometry.setAttribute('color', new THREE.BufferAttribute(colors, 3));
+
+    const material = new THREE.PointsMaterial({
+      size: 2,
+      vertexColors: true,
+      transparent: true,
+      opacity: 0.9,
+      depthWrite: false
+    });
+
+    const points = new THREE.Points(geometry, material);
+    scene.add(points);
+
+    const mouse = { x: 0, y: 0 };
+    let targetZ = 600;
+    function onMove(e){
+      const x = e.clientX || (e.touches && e.touches[0].clientX) || window.innerWidth/2;
+      const y = e.clientY || (e.touches && e.touches[0].clientY) || window.innerHeight/2;
+      mouse.x = (x / window.innerWidth) * 2 - 1;
+      mouse.y = - (y / window.innerHeight) * 2 + 1;
+      targetZ = 500 + (1 - Math.abs(mouse.x)) * 300;
+    }
+
+    window.addEventListener('mousemove', onMove, { passive:true });
+    window.addEventListener('touchmove', onMove, { passive:true });
+
+    function animate() {
+      points.rotation.y += 0.0009;
+      camera.position.x += (mouse.x * 180 - camera.position.x) * 0.06;
+      camera.position.y += (mouse.y * 180 - camera.position.y) * 0.06;
+      camera.position.z += (targetZ - camera.position.z) * 0.08;
+      camera.lookAt(0,0,0);
+      renderer.render(scene, camera);
+      requestAnimationFrame(animate);
+    }
+    animate();
+
+    window.addEventListener('resize', () => {
+      renderer.setSize(window.innerWidth, window.innerHeight);
+      camera.aspect = window.innerWidth / window.innerHeight;
+      camera.updateProjectionMatrix();
+    });
+  })();
+  </script>
+</body>
+</html>
