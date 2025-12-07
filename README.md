@@ -19,7 +19,7 @@
 </h1>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=khujrat17&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=khujrat17&label=Profile%100Views&color=0e75b6&style=flat" alt="Profile Views" />
   &nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/khujrat-shaikh-8823a5203/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-Connect%20with%20Me-blue?style=flat&logo=linkedin" alt="LinkedIn" />
