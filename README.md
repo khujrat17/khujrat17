@@ -36,7 +36,7 @@
 
 ## 💫 About Me
 - 🚀 Currently at **Net Protector Antivirus**, building scalable, secure web solutions  
-- 💻 2.5+ years in full-stack .NET & Angular development  
+- 💻 2.7+ years in full-stack .NET & Angular development  
 - 🌱 Passionate about Advanced Web Technologies, AI integrations & Real-Time UI/UX  
 - 🤝 Open to collaboration on dynamic, interactive, data-driven projects  
 - 💬 Ask me about `.NET Core MVC`, `Angular 16+`, `SignalR`, **Full-Stack** architecture  
