@@ -14,6 +14,10 @@
 </p>
 
 <p align="center">
+    &nbsp;&nbsp;
+    &nbsp;
+  <img src="https://img.shields.io/badge/.NET%20Foundation-Member-512BD4?style=flat&logo=dotnet" />
+  &nbsp;&nbsp;
   <img src="https://komarev.com/ghpvc/?username=khujrat17&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
   &nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/khujrat-shaikh-8823a5203/">
