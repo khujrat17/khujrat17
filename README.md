@@ -34,12 +34,13 @@
 ---
 
 ## 💫 About Me
+- 🌐 Official .NET Foundation Member
 - 🚀 Currently at **Net Protector Antivirus**  
-- 💻 2.8+ years in **full-stack .NET & Angular**  
+- 💻 3+ years in **full-stack .NET & Angular**  
 - 🌱 Passionate about **Web Technologies, AI, Real-Time UI/UX**  
 - 🤝 Open to collaboration on **interactive, data-driven projects**  
 - 💬 Ask about `.NET Core`, `Angular 16+`, `SignalR`, **API design**  
-- 📦 **NuGet:** 12 published packages, ~4,970+ downloads ([nuget.org](https://www.nuget.org/profiles/Khujrat17?utm_source=chatgpt.com))  
+- 📦 **NuGet:** 12 published packages, ~5000+ downloads ([nuget.org](https://www.nuget.org/profiles/Khujrat17?utm_source=chatgpt.com))  
 - 🔗 **LinkedIn:** [Connect](https://www.linkedin.com/in/khujrat-shaikh-8823a5203/)  
 - ✉️ **Email:** khujratshaikh1284@gmail.com
 
