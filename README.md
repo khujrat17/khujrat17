@@ -109,7 +109,6 @@
   &nbsp;
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=khujrat17&layout=compact&theme=dark" height="150" />
 </p>
-
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=khujrat17&theme=tokyo-night" />
 </p>
