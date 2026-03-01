@@ -8,7 +8,7 @@
       animation: gradientMove 8s ease infinite;
       text-shadow: 0 0 20px rgba(255,255,255,0.3);
       ">
-      ✨ Hi, I’m Khujrat Sultan Shaikh ✨
+      ✨ Hi, I’m Khujrat Shaikh ✨
     </span>
   </h1>
 </p>
