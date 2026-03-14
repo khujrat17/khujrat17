@@ -47,7 +47,26 @@
 # 🛠 Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=csharp,dotnet,angular,bootstrap,html,css,js,jquery,mysql,postman,git,github,visualstudio&theme=dark"/>
+
+<img src="https://skillicons.dev/icons?i=csharp,dotnet,angular,js,html,css,bootstrap,jquery,mysql,git,github,visualstudio,vscode,postman,azure&theme=dark"/>
+
+</p>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/ASP.NET%20MVC-512BD4?style=for-the-badge&logo=dotnet"/>
+<img src="https://img.shields.io/badge/Web%20API-.NET-blue?style=for-the-badge&logo=dotnet"/>
+<img src="https://img.shields.io/badge/Entity%20Framework-Data-purple?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/ADO.NET-Database-orange?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/LINQ-C%23-blue?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/JWT-Authentication-red?style=for-the-badge&logo=jsonwebtokens"/>
+<img src="https://img.shields.io/badge/RBAC-Security-darkgreen?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Clean%20Architecture-Design-black?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Agile-Scrum-blueviolet?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Microservices-Architecture-orange?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Blazor-.NET-purple?style=for-the-badge&logo=blazor"/>
+<img src="https://img.shields.io/badge/Performance-Optimization-green?style=for-the-badge"/>
+
 </p>
 
 <p align="center">
