@@ -1,4 +1,4 @@
-<!-- 3D Animated Header -->
+
 <p align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&height=250&text=✨%20Hi,%20I’m%20Khujrat%20Shaikh✨%20&fontAlign=50&fontAlignY=40&color=gradient&animation=fadeIn&fontSize=55&desc=.NET%20Developer%20%7C%20Open%20Source%20Contributor%20%7C%20NuGet%20Creator&descAlign=50&descAlignY=65"/>
 </p>
