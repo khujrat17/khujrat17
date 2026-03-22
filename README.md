@@ -7,8 +7,8 @@
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=.NET+Full+Stack+Developer;Open+Source+Contributor;.NET+Foundation+Member;NuGet+Package+Creator;Building+Enterprise+Security+Platforms"/>
 </p>
-<p align="center">
 
+<p align="center">
   <img src="https://img.shields.io/badge/.NET%20Foundation-Member-512BD4?style=flat&logo=dotnet" />
   <img src="https://komarev.com/ghpvc/?username=khujrat17&label=Profile%20Views&color=0e75b6&style=flat" />
   <a href="https://www.linkedin.com/in/khujrat-shaikh-8823a5203/">
