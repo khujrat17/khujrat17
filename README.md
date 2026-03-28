@@ -4,10 +4,8 @@
 </p>
 
 <p align="center">
-
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=.NET+Full+Stack+Developer;Open+Source+Contributor;.NET+Foundation+Member;NuGet+Package+Creator;Building+Enterprise+Security+Platforms"/>
 </p>
-
 <p align="center">
   <img src="https://img.shields.io/badge/.NET%20Foundation-Member-512BD4?style=flat&logo=dotnet" />
   <img src="https://komarev.com/ghpvc/?username=khujrat17&label=Profile%20Views&color=0e75b6&style=flat" />
@@ -27,7 +25,6 @@
 <p align="center">
 <img src="https://raw.githubusercontent.com/klaudiasiewert/Galaxy-Animation/main/stars.gif" width="100%" height="120"/>
 </p>
-
 # 💫 About Me
 
 - 🌐 Official **.NET Foundation Member**
@@ -44,7 +41,6 @@
 </p>
 
 # 🛠 Tech Stack
-
 <p align="center">
 
 <img src="https://skillicons.dev/icons?i=csharp,dotnet,angular,js,html,css,bootstrap,jquery,mysql,git,github,visualstudio,vscode,postman,azure&theme=dark"/>
@@ -65,7 +61,6 @@
 <img src="https://img.shields.io/badge/Microservices-Architecture-orange?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Blazor-.NET-purple?style=for-the-badge&logo=blazor"/>
 <img src="https://img.shields.io/badge/Performance-Optimization-green?style=for-the-badge"/>
-
 </p>
 
 <p align="center">
@@ -147,7 +142,6 @@
 <p align="center">
 <img src="https://raw.githubusercontent.com/klaudiasiewert/Galaxy-Animation/main/stars.gif" width="100%" height="120"/>
 </p>
-
 
 
 ## 🏆 GitHub Achievements
