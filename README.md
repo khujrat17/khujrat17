@@ -1,4 +1,3 @@
-
 <p align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&height=250&text=✨%20Hi,%20I’m%20Khujrat%20Shaikh✨%20&fontAlign=50&fontAlignY=40&color=gradient&animation=fadeIn&fontSize=55&desc=.NET%20Developer%20%7C%20Open%20Source%20Contributor%20%7C%20NuGet%20Creator&descAlign=50&descAlignY=65"/>
 </p>
@@ -39,7 +38,6 @@
 <p align="center">
 <img src="https://raw.githubusercontent.com/klaudiasiewert/Galaxy-Animation/main/stars.gif" width="100%" height="120"/>
 </p>
-
 # 🛠 Tech Stack
 <p align="center">
 
@@ -106,7 +104,6 @@
 | **CustomLog** | 397 | [![CustomLog](https://img.shields.io/nuget/v/CustomLog?style=flat&logo=nuget)](https://www.nuget.org/packages/CustomLog/) |
 | **MyIpAddress** | 350 | [![MyIpAddress](https://img.shields.io/nuget/v/MyIpAddress?style=flat&logo=nuget)](https://www.nuget.org/packages/MyIpAddress/) |
 
-
 <p align="center">
 <img src="https://raw.githubusercontent.com/klaudiasiewert/Galaxy-Animation/main/stars.gif" width="100%" height="120"/>
 </p>
@@ -138,7 +135,6 @@
 
 </p>
 
-
 <p align="center">
 <img src="https://raw.githubusercontent.com/klaudiasiewert/Galaxy-Animation/main/stars.gif" width="100%" height="120"/>
 </p>
@@ -165,7 +161,6 @@
 </p>
 
 
-
 # 📈 Developer Timeline
 
 <p align="center">
@@ -189,7 +184,6 @@
 ⭐ If you like my work, consider starring my repositories!
 
 </p>
-
 <p align="center">
 <img src="https://raw.githubusercontent.com/klaudiasiewert/Galaxy-Animation/main/stars.gif" width="100%" height="120"/>
 </p>
