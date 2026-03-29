@@ -56,7 +56,6 @@
 <img src="https://img.shields.io/badge/Blazor-.NET-purple?style=for-the-badge&logo=blazor"/>
 <img src="https://img.shields.io/badge/Performance-Optimization-green?style=for-the-badge"/>
 </p>
-
 <p align="center">
 <img src="https://raw.githubusercontent.com/klaudiasiewert/Galaxy-Animation/main/stars.gif" width="100%" height="120"/>
 </p>
@@ -91,7 +90,6 @@
 </p>
 
 ## 📦 My Top NuGet Packages
-
 | Package | Downloads | Install |
 |---------|-----------|---------|
 | **MySqlOptimizer** | 1,551 | [![MySqlOptimizer](https://img.shields.io/nuget/v/MySqlOptimizer?style=flat&logo=nuget)](https://www.nuget.org/packages/MySqlOptimizer/) |
