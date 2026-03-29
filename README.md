@@ -1,7 +1,6 @@
 <p align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&height=250&text=✨%20Hi,%20I’m%20Khujrat%20Shaikh✨%20&fontAlign=50&fontAlignY=40&color=gradient&animation=fadeIn&fontSize=55&desc=.NET%20Developer%20%7C%20Open%20Source%20Contributor%20%7C%20NuGet%20Creator&descAlign=50&descAlignY=65"/>
 </p>
-
 <p align="center">
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=.NET+Full+Stack+Developer;Open+Source+Contributor;.NET+Foundation+Member;NuGet+Package+Creator;Building+Enterprise+Security+Platforms"/>
 </p>
@@ -20,12 +19,10 @@
   </a>
     <img src="https://komarev.com/ghpvc/?username=khujrat17&label=Profile%20Views&color=blueviolet&style=for-the-badge"/>
 </p>
-
 <p align="center">
 <img src="https://raw.githubusercontent.com/klaudiasiewert/Galaxy-Animation/main/stars.gif" width="100%" height="120"/>
 </p>
 # 💫 About Me
-
 - 🌐 Official **.NET Foundation Member**
 - 🚀 Currently at **Net Protector Antivirus**
 - 💻 3+ years in **Full-Stack .NET & Angular**
@@ -34,7 +31,6 @@
 - 🤝 Open to collaboration on **open-source developer tools**
 
 💬 Ask about: `.NET Core` • `ASP.NET MVC` • `Web API` • `Angular` • `SignalR` • `MySQL` • `NuGet`
-
 <p align="center">
 <img src="https://raw.githubusercontent.com/klaudiasiewert/Galaxy-Animation/main/stars.gif" width="100%" height="120"/>
 </p>
